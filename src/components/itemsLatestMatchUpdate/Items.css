@@ -1,0 +1,15 @@
+/* In your CSS file or within your component's style block */
+.img-container {
+    position: relative;
+    overflow: hidden;
+     /* Hide the overflow of the container */
+  }
+  
+  .img-zoom {
+    transition: transform 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .img-zoom:hover {
+    transform: scale(1.1); /* Scale up the image when hovered */
+  }
+  
